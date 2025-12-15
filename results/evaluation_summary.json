@@ -1,0 +1,20 @@
+{
+  "wav2vec2-audeering": {
+    "MAE": 11.671654163599014,
+    "RMSE": 15.146507211551992,
+    "Pearson_r": 0.40571867565245945,
+    "Child_Adult_Accuracy": 0.62,
+    "Child_Recall": 0.28,
+    "Adult_Recall": 0.96,
+    "Child_F1": 0.42424242424242425
+  },
+  "wavlm-acoustic": {
+    "MAE": 16.393347585972165,
+    "RMSE": 17.970365021664477,
+    "Pearson_r": 0.40061559226855104,
+    "Child_Adult_Accuracy": 0.5,
+    "Child_Recall": 0.0,
+    "Adult_Recall": 1.0,
+    "Child_F1": 0
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "audio_directory": "data/common_voice/clips",
+  "total_audio_files": 100,
+  "files_with_ground_truth": 100,
+  "models_evaluated": [
+    "wav2vec2-audeering",
+    "wavlm-base"
+  ],
+  "best_model": {
+    "name": "wav2vec2-audeering",
+    "mae": 13.32
+  },
+  "all_results": {
+    "wav2vec2-audeering": {
+      "model_name": "wav2vec2-audeering",
+      "num_predictions": 100,
+      "avg_time": 0.9498243165016175,
+      "total_time": 94.98243165016174,
+      "mae": 13.32,
+      "rmse": 16.608431593621354,
+      "pearson_r": -0.07006325530512135,
+      "pearson_p": 0.4885130468969154,
+      "accuracy": 0.48,
+      "confusion_matrix": "[[ 0  0  0  0  0]\n [ 1  0 14  0  0]\n [ 7  0 48  0  0]\n [ 3  0 22  0  0]\n [ 1  0  4  0  0]]",
+      "labels": [
+        "child",
+        "teen",
+        "young_adult",
+        "middle_aged",
+        "senior"
+      ],
+      "class_metrics": {
+        "child": {
+          "precision": 0.0,
+          "recall": 0,
+          "f1": 0
+        },
+        "teen": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "young_adult": {
+          "precision": 0.5454545454545454,
+          "recall": 0.8727272727272727,
+          "f1": 0.6713286713286714
+        },
+        "middle_aged": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "senior": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        }
+      }
+    },
+    "wavlm-base": {
+      "model_name": "wavlm-base",
+      "num_predictions": 100,
+      "avg_time": 0.3502231216430664,
+      "total_time": 35.02231216430664,
+      "mae": 33.71386742401868,
+      "rmse": 36.261183194586,
+      "pearson_r": 0.03080674901331519,
+      "pearson_p": 0.7609248299619947,
+      "accuracy": 0.0,
+      "confusion_matrix": "[[ 0  0  0  0  0]\n [15  0  0  0  0]\n [55  0  0  0  0]\n [25  0  0  0  0]\n [ 5  0  0  0  0]]",
+      "labels": [
+        "child",
+        "teen",
+        "young_adult",
+        "middle_aged",
+        "senior"
+      ],
+      "class_metrics": {
+        "child": {
+          "precision": 0.0,
+          "recall": 0,
+          "f1": 0
+        },
+        "teen": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "young_adult": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "middle_aged": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "senior": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        }
+      }
+    }
+  }
+}

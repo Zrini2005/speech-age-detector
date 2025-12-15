@@ -1,0 +1,76 @@
+{
+  "results": [
+    {
+      "model": "audeering_24layer",
+      "num_samples": 100,
+      "mae": 11.671654163599014,
+      "rmse": 15.146507211551992,
+      "correlation": 0.4057186756524598,
+      "child_adult_accuracy": 0.62,
+      "child_recall": 0.28,
+      "child_precision": 0.875,
+      "avg_inference_time": 1.5029466080665588,
+      "predictions_mean": 27.18703978508711,
+      "predictions_std": 10.990039826636483
+    },
+    {
+      "model": "audeering_6layer",
+      "num_samples": 100,
+      "mae": 12.430951966047287,
+      "rmse": 14.947051803961234,
+      "correlation": 0.4458211563758733,
+      "child_adult_accuracy": 0.58,
+      "child_recall": 0.2,
+      "child_precision": 0.8333333333333334,
+      "avg_inference_time": 0.6331667971611022,
+      "predictions_mean": 27.94190487265587,
+      "predictions_std": 9.837172210513298
+    },
+    {
+      "model": "wavlm_acoustic",
+      "num_samples": 100,
+      "mae": 18.686481311798097,
+      "rmse": 20.244514867215273,
+      "correlation": 0.09097632653514169,
+      "child_adult_accuracy": 0.5,
+      "child_recall": 0.0,
+      "child_precision": 0,
+      "avg_inference_time": 0.7555902504920959,
+      "predictions_mean": 35.01716250228882,
+      "predictions_std": 0.005543182614757415
+    },
+    {
+      "model": "voxprofile_wavlm",
+      "num_samples": 100,
+      "mae": 7.8872333335876466,
+      "rmse": 9.528380886442536,
+      "correlation": 0.331051923991932,
+      "child_adult_accuracy": 0.65,
+      "child_recall": 0.48,
+      "child_precision": 0.7272727272727273,
+      "avg_inference_time": 1.7753807187080384,
+      "predictions_mean": 20.99971628189087,
+      "predictions_std": 6.256560837767606
+    },
+    {
+      "model": "speechbrain_ecapa",
+      "num_samples": 100,
+      "mae": 11.319486167877912,
+      "rmse": 13.721845509574313,
+      "correlation": -0.3046024708076875,
+      "child_adult_accuracy": 0.5,
+      "child_recall": 1.0,
+      "child_precision": 0.5,
+      "avg_inference_time": 0.7805669856071472,
+      "predictions_mean": 7.177538930922747,
+      "predictions_std": 4.303279664217666
+    }
+  ],
+  "metadata": {
+    "num_test_samples": 100,
+    "test_dataset": "speechocean762 (Asian/Chinese)",
+    "age_range": "6-37 years",
+    "num_children": 50,
+    "num_adults": 50
+  }
+}

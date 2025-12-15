@@ -1,0 +1,205 @@
+{
+  "audio_directory": "data/children_real/clips",
+  "total_audio_files": 200,
+  "files_with_ground_truth": 71,
+  "models_evaluated": [
+    "wav2vec2-audeering",
+    "wavlm-base",
+    "mfcc-baseline"
+  ],
+  "best_model": {
+    "name": "wav2vec2-audeering",
+    "mae": 10.755426622612376
+  },
+  "all_results": {
+    "wav2vec2-audeering": {
+      "model_name": "wav2vec2-audeering",
+      "num_predictions": 200,
+      "avg_time": 1.3449794101715087,
+      "total_time": 268.99588203430176,
+      "mae": 10.755426622612376,
+      "rmse": 14.750039810876249,
+      "pearson_r": 0.22786669920691177,
+      "pearson_p": 0.055981011078541525,
+      "accuracy": 0.49295774647887325,
+      "confusion_matrix": "[[ 1  2 11  0  0]\n [ 0  2  7  1  0]\n [ 0  6 32  8  1]\n [ 0  0  0  0  0]\n [ 0  0  0  0  0]]",
+      "labels": [
+        "child",
+        "teen",
+        "young_adult",
+        "middle_aged",
+        "senior"
+      ],
+      "class_metrics": {
+        "child": {
+          "precision": 1.0,
+          "recall": 0.07142857142857142,
+          "f1": 0.13333333333333333
+        },
+        "teen": {
+          "precision": 0.2,
+          "recall": 0.2,
+          "f1": 0.20000000000000004
+        },
+        "young_adult": {
+          "precision": 0.64,
+          "recall": 0.6808510638297872,
+          "f1": 0.6597938144329897
+        },
+        "middle_aged": {
+          "precision": 0.0,
+          "recall": 0,
+          "f1": 0
+        },
+        "senior": {
+          "precision": 0.0,
+          "recall": 0,
+          "f1": 0
+        }
+      },
+      "child_adult_accuracy": 0.7323943661971831,
+      "child_precision": 0.6666666666666666,
+      "child_recall": 0.19047619047619047,
+      "child_f1": 0.2962962962962963,
+      "adult_precision": 0.7384615384615385,
+      "adult_recall": 0.96,
+      "adult_f1": 0.8347826086956522,
+      "true_children": 21,
+      "pred_children": 6,
+      "true_adults": 50,
+      "pred_adults": 65,
+      "confusion_child_adult": {
+        "TP": 4,
+        "TN": 48,
+        "FP": 2,
+        "FN": 17
+      }
+    },
+    "wavlm-base": {
+      "model_name": "wavlm-base",
+      "num_predictions": 200,
+      "avg_time": 0.8729272186756134,
+      "total_time": 174.58544373512268,
+      "mae": 14.534004895746804,
+      "rmse": 16.150993151971665,
+      "pearson_r": 0.12679627044462247,
+      "pearson_p": 0.2920201921171153,
+      "accuracy": 0.5915492957746479,
+      "confusion_matrix": "[[ 0  2 10  2  0]\n [ 0  1  8  1  0]\n [ 0  2 41  4  0]\n [ 0  0  0  0  0]\n [ 0  0  0  0  0]]",
+      "labels": [
+        "child",
+        "teen",
+        "young_adult",
+        "middle_aged",
+        "senior"
+      ],
+      "class_metrics": {
+        "child": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "teen": {
+          "precision": 0.2,
+          "recall": 0.1,
+          "f1": 0.13333333333333333
+        },
+        "young_adult": {
+          "precision": 0.6949152542372882,
+          "recall": 0.8723404255319149,
+          "f1": 0.7735849056603775
+        },
+        "middle_aged": {
+          "precision": 0.0,
+          "recall": 0,
+          "f1": 0
+        },
+        "senior": {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        }
+      },
+      "child_adult_accuracy": 0.704225352112676,
+      "child_precision": 0,
+      "child_recall": 0.0,
+      "child_f1": 0,
+      "adult_precision": 0.704225352112676,
+      "adult_recall": 1.0,
+      "adult_f1": 0.8264462809917354,
+      "true_children": 21,
+      "pred_children": 0,
+      "true_adults": 50,
+      "pred_adults": 71,
+      "confusion_child_adult": {
+        "TP": 0,
+        "TN": 50,
+        "FP": 0,
+        "FN": 21
+      }
+    },
+    "mfcc-baseline": {
+      "model_name": "mfcc-baseline",
+      "num_predictions": 200,
+      "avg_time": 0.022547032833099365,
+      "total_time": 4.509406566619873,
+      "mae": 26.3044571435842,
+      "rmse": 27.36653417971431,
+      "pearson_r": -0.20780522922569108,
+      "pearson_p": 0.08204255329856946,
+      "accuracy": 0.0,
+      "confusion_matrix": "[[ 0  0  0 14  0]\n [ 0  0  0 10  0]\n [ 0  0  0 47  0]\n [ 0  0  0  0  0]\n [ 0  0  0  0  0]]",
+      "labels": [
+        "child",
+        "teen",
+        "young_adult",
+        "middle_aged",
+        "senior"
+      ],
+      "class_metrics": {
+        "child": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "teen": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "young_adult": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "middle_aged": {
+          "precision": 0.0,
+          "recall": 0,
+          "f1": 0
+        },
+        "senior": {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        }
+      },
+      "child_adult_accuracy": 0.704225352112676,
+      "child_precision": 0,
+      "child_recall": 0.0,
+      "child_f1": 0,
+      "adult_precision": 0.704225352112676,
+      "adult_recall": 1.0,
+      "adult_f1": 0.8264462809917354,
+      "true_children": 21,
+      "pred_children": 0,
+      "true_adults": 50,
+      "pred_adults": 71,
+      "confusion_child_adult": {
+        "TP": 0,
+        "TN": 50,
+        "FP": 0,
+        "FN": 21
+      }
+    }
+  }
+}

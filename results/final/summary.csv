@@ -1,0 +1,4 @@
+Model,Predictions,Avg Time (s),MAE,RMSE,Pearson r,Accuracy
+wav2vec2-audeering,200,1.345,10.76,14.75,0.228,49.30%
+wavlm-base,200,0.873,14.53,16.15,0.127,59.15%
+mfcc-baseline,200,0.023,26.30,27.37,-0.208,0.00%

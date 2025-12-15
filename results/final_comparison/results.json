@@ -1,0 +1,35 @@
+{
+  "Audeering-24layer": {
+    "MAE": 11.671654163599014,
+    "RMSE": 15.146507211551992,
+    "Pearson_r": 0.40571867565245945,
+    "Child_Adult_Acc": 0.62,
+    "Child_Recall": 0.28,
+    "Adult_Recall": 0.96,
+    "Child_F1": 0.42424242424242425,
+    "Avg_Time_sec": 1.4398789978027344,
+    "Total_Time_sec": 143.98789978027344
+  },
+  "Audeering-6layer": {
+    "MAE": 12.430951966047287,
+    "RMSE": 14.947051803961234,
+    "Pearson_r": 0.4458211563758733,
+    "Child_Adult_Acc": 0.58,
+    "Child_Recall": 0.2,
+    "Adult_Recall": 0.96,
+    "Child_F1": 0.3225806451612903,
+    "Avg_Time_sec": 0.6435039353370666,
+    "Total_Time_sec": 64.35039353370667
+  },
+  "WavLM-Acoustic": {
+    "MAE": 16.36638780814013,
+    "RMSE": 17.943334506430723,
+    "Pearson_r": 0.4006359764269648,
+    "Child_Adult_Acc": 0.5,
+    "Child_Recall": 0.0,
+    "Adult_Recall": 1.0,
+    "Child_F1": 0,
+    "Avg_Time_sec": 0.984987554550171,
+    "Total_Time_sec": 98.49875545501709
+  }
+}
